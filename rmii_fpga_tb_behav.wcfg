@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="rmii_fpga_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mac_pkg" />
+            <top_module name="rmii_fpga_tb" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="67100000001fs"></ZoomEndTime>
+      <Cursor1Time time="12125000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="178"></NameColumnWidth>
+      <ValueColumnWidth column_width="99"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="60" />
+   <wvobject fp_name="divider71" type="divider">
+      <obj_property name="label">TOP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/cfg">
+      <obj_property name="ElementShortName">cfg[0:23][31:0]</obj_property>
+      <obj_property name="ObjectShortName">cfg[0:23][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/cfg_counter">
+      <obj_property name="ElementShortName">cfg_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cfg_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/eth_crs_dv">
+      <obj_property name="ElementShortName">eth_crs_dv</obj_property>
+      <obj_property name="ObjectShortName">eth_crs_dv</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/eth_rxerr">
+      <obj_property name="ElementShortName">eth_rxerr</obj_property>
+      <obj_property name="ObjectShortName">eth_rxerr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/eth_ref_clk">
+      <obj_property name="ElementShortName">eth_ref_clk</obj_property>
+      <obj_property name="ObjectShortName">eth_ref_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_mii_to_rmii/rmii2mac_tx_clk">
+      <obj_property name="ElementShortName">rmii2mac_tx_clk</obj_property>
+      <obj_property name="ObjectShortName">rmii2mac_tx_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_mii_to_rmii/rmii2mac_rx_clk">
+      <obj_property name="ElementShortName">rmii2mac_rx_clk</obj_property>
+      <obj_property name="ObjectShortName">rmii2mac_rx_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/eth_tx_en">
+      <obj_property name="ElementShortName">eth_tx_en</obj_property>
+      <obj_property name="ObjectShortName">eth_tx_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/eth_rst_n">
+      <obj_property name="ElementShortName">eth_rst_n</obj_property>
+      <obj_property name="ObjectShortName">eth_rst_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/eth_rxd">
+      <obj_property name="ElementShortName">eth_rxd[1:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_rxd[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/eth_txd">
+      <obj_property name="ElementShortName">eth_txd[1:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_txd[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/eth_rxdv_en">
+      <obj_property name="ElementShortName">eth_rxdv_en</obj_property>
+      <obj_property name="ObjectShortName">eth_rxdv_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/sft">
+      <obj_property name="ElementShortName">sft[0:15][4:0]</obj_property>
+      <obj_property name="ObjectShortName">sft[0:15][4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/sft_cnt">
+      <obj_property name="ElementShortName">sft_cnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sft_cnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/led">
+      <obj_property name="ElementShortName">led</obj_property>
+      <obj_property name="ObjectShortName">led</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_mii_to_rmii/rmii2mac_rx_dv">
+      <obj_property name="ElementShortName">rmii2mac_rx_dv</obj_property>
+      <obj_property name="ObjectShortName">rmii2mac_rx_dv</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_mii_to_rmii/rmii2mac_rxd">
+      <obj_property name="ElementShortName">rmii2mac_rxd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rmii2mac_rxd[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_mii_to_rmii/mac2rmii_txd">
+      <obj_property name="ElementShortName">mac2rmii_txd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mac2rmii_txd[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_eth/phy_rx_data">
+      <obj_property name="ElementShortName">phy_rx_data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">phy_rx_data[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_eth/U0/XEMAC_I/RX_PING/xpm_memory_inst_1/ena">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_eth/U0/XEMAC_I/RX_PING/xpm_memory_inst_1/wea">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider72" type="divider">
+      <obj_property name="label">CONTROL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_awaddr">
+      <obj_property name="ElementShortName">m_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_wdata">
+      <obj_property name="ElementShortName">m_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_awvalid">
+      <obj_property name="ElementShortName">m_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_wvalid">
+      <obj_property name="ElementShortName">m_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_awready">
+      <obj_property name="ElementShortName">m_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_wready">
+      <obj_property name="ElementShortName">m_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_bvalid">
+      <obj_property name="ElementShortName">m_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_bready">
+      <obj_property name="ElementShortName">m_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_wstrb">
+      <obj_property name="ElementShortName">m_axi_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_bresp">
+      <obj_property name="ElementShortName">m_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_araddr">
+      <obj_property name="ElementShortName">m_axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_rdata">
+      <obj_property name="ElementShortName">m_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_arready">
+      <obj_property name="ElementShortName">m_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_arvalid">
+      <obj_property name="ElementShortName">m_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_rready">
+      <obj_property name="ElementShortName">m_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_rvalid">
+      <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/m_axi_rresp">
+      <obj_property name="ElementShortName">m_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/eth_intr">
+      <obj_property name="ElementShortName">eth_intr</obj_property>
+      <obj_property name="ObjectShortName">eth_intr</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/led">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/state">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/next_state">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/gie_done">
+      <obj_property name="ElementShortName">gie_done</obj_property>
+      <obj_property name="ObjectShortName">gie_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/query_done">
+      <obj_property name="ElementShortName">query_done</obj_property>
+      <obj_property name="ObjectShortName">query_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/readcfg_done">
+      <obj_property name="ElementShortName">readcfg_done</obj_property>
+      <obj_property name="ObjectShortName">readcfg_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/senddata_done">
+      <obj_property name="ElementShortName">senddata_done</obj_property>
+      <obj_property name="ObjectShortName">senddata_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/gaptime_done">
+      <obj_property name="ElementShortName">gaptime_done</obj_property>
+      <obj_property name="ObjectShortName">gaptime_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/row_counter">
+      <obj_property name="ElementShortName">row_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">row_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/axi_traffic_cnt">
+      <obj_property name="ElementShortName">axi_traffic_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_traffic_cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/axi_m_idle">
+      <obj_property name="ElementShortName">axi_m_idle</obj_property>
+      <obj_property name="ObjectShortName">axi_m_idle</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/rmem_offset">
+      <obj_property name="ElementShortName">rmem_offset[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rmem_offset[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/ip_length">
+      <obj_property name="ElementShortName">ip_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/u_rmii_control/gap_cnt">
+      <obj_property name="ElementShortName">gap_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">gap_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/led">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+</wave_config>
