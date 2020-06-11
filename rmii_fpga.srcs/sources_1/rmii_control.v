@@ -242,7 +242,7 @@ always @(posedge clk or negedge resetn) begin
             end
             11: begin // [15:0] udp.dstport, [31:16] udp.length
               m_axi_awaddr <= 32'h0000_0024;
-              m_axi_wdata <= 32'h8a00_d204 + {8'd10+(CH_NUM<<2), 8'h00, 16'h0000}; // (8 + 2byte padding + data.length), [23:16]HByte, [31:24]LByte
+              m_axi_wdata <= 32'h0000_d204 + {8'd10+(CH_NUM<<2), 8'h00, 16'h0000}; // (8 + 2byte padding + data.length), [23:16]HByte, [31:24]LByte
             end
             12: begin // [15:0] udp.checksum, [31:16] padding(2 Byte no use in data field)
               m_axi_awaddr <= 32'h0000_0028;
