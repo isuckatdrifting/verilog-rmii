@@ -10,7 +10,7 @@ reg [31:0] cfg [0:`CFG_PLENGTH-1];
 reg  [7:0] cfg_counter;
 
 reg        eth_crs_dv, eth_rxerr;
-wire       eth_ref_clk, eth_tx_en, eth_rst_n; 
+wire       eth_ref_clk, eth_tx_en; 
 reg  [1:0] eth_rxd;
 wire [1:0] eth_txd;   
 reg        eth_rxdv_en;    
@@ -40,6 +40,7 @@ initial begin
 end
 always #5 clk = ~clk;
 
+// RMII shift counter
 reg [4:0] sft [0:15];
 reg [4:0] sft_cnt;
 initial begin
@@ -75,10 +76,6 @@ always @(posedge eth_ref_clk) begin
   end else begin
     eth_crs_dv <= #`DFF 0;
   end
-end
-
-// RMII ethernet config
-initial begin
 end
 
 // MII ethernet config
