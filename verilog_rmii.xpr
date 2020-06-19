@@ -3,10 +3,10 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="40" Path="/home/geralt/Downloads/cobra_test_sys/source/rmii_fpga/rmii_fpga.xpr">
+<Project Version="7" Minor="40" Path="/home/geralt/Downloads/cobra_test_sys/source/rmii_fpga/verilog_rmii.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="fa99ad6435a641e79ea39595ea251cc7"/>
+    <Option Name="Id" Val="f232c3046fec4342bd489f454eaa496f"/>
     <Option Name="Part" Val="xc7a35ticsg324-1L"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -21,7 +21,6 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
-    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPCachePermission" Val="read"/>
     <Option Name="IPCachePermission" Val="write"/>
     <Option Name="EnableCoreContainer" Val="FALSE"/>
@@ -62,6 +61,8 @@
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sources_1/rmii_control.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/rmii_fpga.srcs/sources_1/rmii_control.v"/>
+          <Attr Name="ImportTime" Val="1591843073"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -69,6 +70,8 @@
       </File>
       <File Path="$PSRCDIR/sources_1/rmii_fpga.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/rmii_fpga.srcs/sources_1/rmii_fpga.v"/>
+          <Attr Name="ImportTime" Val="1591776111"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -84,6 +87,8 @@
       <Filter Type="Constrs"/>
       <File Path="$PSRCDIR/constrs_1/rmii_fpga.xdc">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/rmii_fpga.srcs/constrs_1/rmii_fpga.xdc"/>
+          <Attr Name="ImportTime" Val="1591773726"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
@@ -96,13 +101,17 @@
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sim_1/tb_rmii_fpga.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/rmii_fpga.srcs/sim_1/tb_rmii_fpga.v"/>
+          <Attr Name="ImportTime" Val="1591869905"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/rmii_fpga_tb_behav.wcfg">
+      <File Path="$PSRCDIR/sim_1/imports/rmii_fpga/rmii_fpga_tb_behav.wcfg">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/rmii_fpga_tb_behav.wcfg"/>
+          <Attr Name="ImportTime" Val="1591772298"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
@@ -125,6 +134,8 @@
     <FileSet Name="axi_ethernetlite_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/axi_ethernetlite_0">
       <File Path="$PSRCDIR/sources_1/ip/axi_ethernetlite_0/axi_ethernetlite_0.xci">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/rmii_fpga.srcs/sources_1/ip/axi_ethernetlite_0/axi_ethernetlite_0.xci"/>
+          <Attr Name="ImportTime" Val="1591766279"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -138,6 +149,8 @@
     <FileSet Name="mii_to_rmii_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/mii_to_rmii_0">
       <File Path="$PSRCDIR/sources_1/ip/mii_to_rmii_0/mii_to_rmii_0.xci">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/rmii_fpga.srcs/sources_1/ip/mii_to_rmii_0/mii_to_rmii_0.xci"/>
+          <Attr Name="ImportTime" Val="1591766372"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -151,6 +164,8 @@
     <FileSet Name="ila_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ila_0">
       <File Path="$PSRCDIR/sources_1/ip/ila_0/ila_0.xci">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/rmii_fpga.srcs/sources_1/ip/ila_0/ila_0.xci"/>
+          <Attr Name="ImportTime" Val="1591776037"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
