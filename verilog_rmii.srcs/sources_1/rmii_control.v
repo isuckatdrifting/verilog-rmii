@@ -25,7 +25,7 @@ module rmii_control(
  output reg   [7:0] led
 );
 
-localparam CH_NUM = 1;
+localparam CH_NUM = 32;
 
 assign m_axi_wstrb = 4'hf;
 assign m_axi_bresp = 2'b00;
@@ -265,7 +265,7 @@ always @(posedge clk or negedge resetn) begin
               // SERIALIZE through CH_NUM channels
               row_counter <= row_counter + 1;
               m_axi_awaddr <= 32'h0000_002c + (row_counter << 2);
-              m_axi_wdata <= 32'h0000_0000;
+              m_axi_wdata <= m_axi_wdata + 1;
             end
           endcase
           m_axi_awvalid <= 1;

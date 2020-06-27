@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX1
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0021728B    Jun 24 13:00:17 2020    /home/geralt/Downloads/cobra_test_sys/source/verilog-rmii/verilog_rmii.runs/impl_1/rmii_fpga.bit
